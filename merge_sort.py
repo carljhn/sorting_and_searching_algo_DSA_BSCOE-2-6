@@ -32,3 +32,9 @@ def merge_sort(myArray):
             myArray[k] = left_side[i]
             i += 1
             k += 1
+
+        # third while loop
+        while j < len(right_side):
+            myArray[k] = right_side[j]
+            j += 1
+            k += 1
