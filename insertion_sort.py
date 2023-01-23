@@ -17,3 +17,9 @@ for i in range(1, len(myNumbers)):
 
     #displays the breakdown of the insertion sort
     print(myNumbers)
+
+#displays the output
+print()
+print("="*22, "Insertion Sort", "="*22)
+print("Using the Insertion Sort Method, the output is: \n", myNumbers)
+print("="*60)
