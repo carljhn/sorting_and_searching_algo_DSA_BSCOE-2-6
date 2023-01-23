@@ -7,3 +7,7 @@ def merge_sort(myArray):
         middle = len(myArray)//2
         left_side = myArray[:middle]
         right_side = myArray[middle:]
+    
+        #recursive iteration
+        merge_sort(left_side)
+        merge_sort(right_side)
