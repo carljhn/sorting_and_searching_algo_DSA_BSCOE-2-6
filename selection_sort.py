@@ -15,3 +15,6 @@ for i in range(len(myNumbers)):
     temp = myNumbers[i]
     myNumbers[i] = myNumbers[min_index]
     myNumbers[min_index] = temp
+
+    #displays the breakdown of the selection sort
+    print(myNumbers)
