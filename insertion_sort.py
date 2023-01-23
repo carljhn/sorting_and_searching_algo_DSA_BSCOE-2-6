@@ -14,3 +14,6 @@ for i in range(1, len(myNumbers)):
         myNumbers[j - 1] = myNumbers[j]
         myNumbers[j] = temp
         j -= 1
+
+    #displays the breakdown of the insertion sort
+    print(myNumbers)
