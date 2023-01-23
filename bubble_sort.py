@@ -16,3 +16,9 @@ for i in range(len(myNumbers)-1, 0, -1):
 
     #displays the breakdown of the bubble sort
     print(myNumbers)
+
+#dislays the final output
+print()
+print("="*23, "Bubble Sort", "="*24)
+print("Using the Bubble Sort Method, the output is: \n", myNumbers)
+print("="*60)
