@@ -38,3 +38,6 @@ def merge_sort(myArray):
             myArray[k] = right_side[j]
             j += 1
             k += 1
+
+    # display the breakdown of the merge sort
+    print(myNumbers)
