@@ -13,3 +13,6 @@ for i in range(len(myNumbers)-1, 0, -1):
             temp = myNumbers[j]
             myNumbers[j] = myNumbers[j + 1]
             myNumbers[j + 1] = temp
+
+    #displays the breakdown of the bubble sort
+    print(myNumbers)
