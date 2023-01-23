@@ -40,4 +40,8 @@ def merge_sort(myArray):
             k += 1
 
     # display the breakdown of the merge sort
-    print(myNumbers)
+    print(myArray)
+
+# calls the function
+myNumbers = [24, 6, 7, 88, 51, 40, 11, 68, 79, 5]
+merge_sort(myNumbers)
