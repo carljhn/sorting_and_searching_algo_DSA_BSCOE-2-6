@@ -10,3 +10,8 @@ for i in range(len(myNumbers)):
     for j in range(i + 1, len(myNumbers)):
         if myNumbers[j] < myNumbers[min_index]:
             min_index = j 
+
+    #swap the element in ascending order
+    temp = myNumbers[i]
+    myNumbers[i] = myNumbers[min_index]
+    myNumbers[min_index] = temp
