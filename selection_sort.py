@@ -18,3 +18,9 @@ for i in range(len(myNumbers)):
 
     #displays the breakdown of the selection sort
     print(myNumbers)
+
+#displays the output
+print()
+print("="*22, "Selection Sort", "="*22)
+print("Using the Selection Sort Method, the output is: \n", myNumbers)
+print("="*60)
