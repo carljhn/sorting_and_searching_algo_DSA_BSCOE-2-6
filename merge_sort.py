@@ -45,3 +45,9 @@ def merge_sort(myArray):
 # calls the function
 myNumbers = [24, 6, 7, 88, 51, 40, 11, 68, 79, 5]
 merge_sort(myNumbers)
+
+# displays the final output
+print()
+print("="*24, "Merge Sort", "="*24)
+print("Using the Merge Sort Method, the output is: \n", myNumbers)
+print("="*60)
