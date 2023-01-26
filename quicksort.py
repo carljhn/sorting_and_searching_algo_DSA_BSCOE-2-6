@@ -26,3 +26,8 @@ def partition(myNumbers, left_side, right_side):
             temp = myNumbers[i]
             myNumbers[i] = myNumbers[j]
             myNumbers[j] = temp 
+
+    if myNumbers[i] > pivot:
+        temp = myNumbers[i]
+        myNumbers[i] = myNumbers[right_side]
+        myNumbers[right_side] = temp
