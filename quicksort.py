@@ -18,3 +18,6 @@ def partition(myNumbers, left_side, right_side):
     while i < j: 
         while i < right_side and myNumbers[i] < pivot:
             i += 1
+
+        while j > left_side and myNumbers[j] >= pivot:
+            j -= 1
