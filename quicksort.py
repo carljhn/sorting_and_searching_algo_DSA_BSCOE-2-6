@@ -38,3 +38,9 @@ def partition(myNumbers, left_side, right_side):
 
 myNumbers = [24, 6, 7, 88, 51, 40, 11, 68, 79, 5]
 quicksort(myNumbers, 0, len(myNumbers) - 1)
+
+# display the final output of the program
+print()
+print("="*24, "Quicksort", "="*25)
+print("Using the Quicksort Method, the output is: \n", myNumbers)
+print("="*60)
