@@ -31,3 +31,7 @@ def partition(myNumbers, left_side, right_side):
         temp = myNumbers[i]
         myNumbers[i] = myNumbers[right_side]
         myNumbers[right_side] = temp
+
+    #displays the breakdown of the quicksort method
+    print(myNumbers)
+    return i
